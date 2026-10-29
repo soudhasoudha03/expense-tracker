@@ -1,0 +1,30 @@
+.reports-controls {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.reports-pdf-button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #6c63e8;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reports-pdf-button:hover {
+  background: #554bd1;
+}
+
+@media (max-width: 760px) {
+  .reports-controls {
+    width: 100%;
+  }
+
+  .reports-pdf-button {
+    width: 100%;
+  }
+}
